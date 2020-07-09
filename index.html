@@ -14,8 +14,32 @@
 </head>
 
 <body>
+<!-- Create a basic navigation bar -->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <!-- Create a container for nav bar navigation bar -->
+        <div class="container">
+ <!-- Creating a responsive navigation bar-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
 
+             <!-- To hide the items from the navigation bar for the small screens, we need to enclose the ul within another div as follows:-->
+            <div class="collapse navbar-collapse" id="Navbar">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>    
+            </div>
+                 
+        </div>
+    </nav>
     
+
+    <!-- Create a jumbtron -->
         <header class="jumbotron">
             <div class="container">
                 <div class="row row-header">
@@ -66,6 +90,7 @@
         </div>
     </div>
 
+    <!-- Create a footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">           
@@ -73,7 +98,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled"> 
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
